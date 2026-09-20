@@ -1,5 +1,7 @@
 # TESSA
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22862636.svg)](https://doi.org/10.5281/zenodo.22862636)
+
 **Temporal Embedding and State-Space Analytics**
 
 TESSA is a browser-based visual analytics environment for the coordinated exploration of latent representations and temporally aligned multimodal data. It links low-dimensional embedding views with synchronized time-series views so that observations can be explored in both their latent and temporal context. A FastAPI backend serves the frontend and stores projects locally.
