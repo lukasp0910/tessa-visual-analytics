@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "types": [
+    {
+      "name": "line",
+      "label": "Line chart",
+      "description": "Visualize trends across an ordered dimension.",
+      "fields": [
+        {
+          "name": "x",
+          "label": "X axis",
+          "type": "dimension",
+          "required": true,
+          "description": "Field used for the horizontal axis."
+        },
+        {
+          "name": "y",
+          "label": "Y axis",
+          "type": "metric",
+          "required": true,
+          "description": "Value field rendered on the vertical axis."
+        },
+        {
+          "name": "series",
+          "label": "Series",
+          "type": "dimension",
+          "required": false,
+          "description": "Optional grouping field used to split the line into series."
+        },
+        {
+          "name": "color",
+          "label": "Color",
+          "type": "color",
+          "required": false,
+          "default": "#1f77b4",
+          "description": "Default line color when no series field is provided."
+        }
+      ],
+      "defaults": {
+        "interpolation": "linear"
+      },
+      "options": {
+        "showMarkers": true
+      }
+    },
+    {
+      "name": "bar",
+      "label": "Bar chart",
+      "description": "Compare categorical values using vertical or horizontal bars.",
+      "fields": [
+        {
+          "name": "category",
+          "label": "Category",
+          "type": "dimension",
+          "required": true,
+          "description": "Dimension that defines each bar."
+        },
+        {
+          "name": "value",
+          "label": "Value",
+          "type": "metric",
+          "required": true,
+          "description": "Metric displayed for each bar."
+        },
+        {
+          "name": "stack",
+          "label": "Stack",
+          "type": "dimension",
+          "required": false,
+          "description": "Optional dimension used to stack bars."
+        }
+      ],
+      "defaults": {
+        "orientation": "vertical"
+      },
+      "options": {
+        "stacking": [
+          "none",
+          "stacked",
+          "percent"
+        ]
+      }
+    },
+    {
+      "name": "scatter",
+      "label": "Scatter plot",
+      "description": "Show relationships between two metrics with optional color and size encodings.",
+      "fields": [
+        {
+          "name": "x",
+          "label": "X axis",
+          "type": "metric",
+          "required": true,
+          "description": "Metric mapped to the horizontal axis."
+        },
+        {
+          "name": "y",
+          "label": "Y axis",
+          "type": "metric",
+          "required": true,
+          "description": "Metric mapped to the vertical axis."
+        },
+        {
+          "name": "color",
+          "label": "Color",
+          "type": "dimension",
+          "required": false,
+          "description": "Optional dimension used for color encoding."
+        },
+        {
+          "name": "size",
+          "label": "Size",
+          "type": "metric",
+          "required": false,
+          "default": 4,
+          "description": "Optional metric used for point size."
+        }
+      ],
+      "defaults": {
+        "pointShape": "circle"
+      },
+      "options": {
+        "showRegression": false
+      }
+    }
+  ]
+}

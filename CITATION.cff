@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use TESSA in your research, please cite this software."
+title: "TESSA: Temporal Embedding and State-Space Analytics"
+type: software
+authors:
+  - family-names: Pasold
+    given-names: Lukas
+  - family-names: Scherf
+    given-names: Nico
+  - family-names: Gaebler
+    given-names: Michael
+  - family-names: Meinecke
+    given-names: Christofer
+repository-code: "https://github.com/lukasp0910/tessa-visual-analytics"
+license: MIT

@@ -1,0 +1,71 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+*.conda
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_convert
+
+# mypy / Pyright / type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Other tooling
+.pyenv/
+.ruff_cache/
+
+# VSCode settings
+.vscode/
+
+.history/
+
+# Local data, notebooks, archives, and research output
+data/
+sample_data/
+*.npy
+*.npz
+*.ipynb
+*.pdf
+*.zip
+*.log
+
+# Local configuration and editor files
+.env
+.env.*
+.DS_Store
+.idea/
