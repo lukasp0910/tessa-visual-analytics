@@ -102,7 +102,7 @@ Software citation metadata are in [`CITATION.cff`](CITATION.cff), which GitHub d
 
 ## Version
 
-A manuscript-matched release is planned as `v1.0.0` once the evaluated version is finalized. No release has been tagged yet; until then, use a specific commit hash when referring to an exact version.
+The first public release is [`v1.0.0`](https://github.com/lukasp0910/tessa-visual-analytics/releases/tag/v1.0.0). Zenodo archived this version under [DOI 10.5281/zenodo.22862636](https://doi.org/10.5281/zenodo.22862636).
 
 ## License
 
